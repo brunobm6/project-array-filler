@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Viga&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	background: rgb(147,201,89);
+	background: linear-gradient(90deg, rgba(147,201,89,1) 0%, rgba(88,40,90,0.7772981018579307) 35%, rgba(0,212,255,1) 100%);
+}
+
+header {
+
+	height: 40px;
+	padding: 10px;
+	border-bottom: 5px solid white;
+
+	background: rgb(47,83,123);
+	background: linear-gradient(0deg, rgba(47,83,123,1) 41%, rgba(17,43,72,1) 66%);
+}
+
+h1 {
+
+	font-size: 32px;
+	font-family: "Viga", sans-serif;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.content {
+
+	height: 468px;
+
+}
+
+#table-showNumbers {
+
+	width: 650px;
+	height: 300px;
+	margin: 20px auto;
+	border: 5px solid white;
+	border-radius: 4px;
+
+}
+
+#table-showNumbers td {
+
+	width: 60px;
+	height: 36px;
+	border: 1px solid white;
+	color: white;
+	font-size: 24px;
+	font-family: "arial", sans-serif;
+	text-align: center;
+
+}
+
+#button-start {
+
+	width: 170px;
+	height: 55px;
+	display: block;
+	font-family: "arial", sans-serif;
+	font-size: 26px;
+	background: #2f4569;
+	color: white;
+	border: 3px solid white;
+	border-radius: 10px;
+	margin: 0 auto;
+	transition: all 0.5s ease;
+}
+
+#button-start:hover {
+
+	cursor: pointer;
+	background: #c9ed8e;
+	color: black;
+	transform: scale(1.1);
+}
+
+#button-start:active {
+
+	border: 15px solid black;
+}
+
